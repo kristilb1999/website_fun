@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #aaaaaa;
+}
+
+html{
+    background-image: url(../images/background.gif);
+    background-size: 14.2%;
+}
+
+body {
+    width: 74%;
+    background-color: #2a623d;
+    border: 5px solid #aaaaaa;
+    box-shadow: 0 0 8px 8px #000000;
+    margin:auto;
+    max-width: 900px;
+}
+
+header h1 {
+    font-family: cursive, sans-serif;
+    font-size: 1.5em;
+    color: gainsboro;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+img#hoodie {
+    width: 375px;
+    float: right;
+    margin-right: 3em;
+    border: 5px solid black;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 5px;
+}
+
+img.photos {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: .7%;
+    width: 22%;
+    margin-left: .7%;
+    margin-bottom: 1.6%;
+    margin-top: 1.6%;
+}
+
+img.photos:hover {
+    box-shadow: 0 0 8px 4px #aaaaaa;
+}
+
+img#me1 {
+    width: 34%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 34%;
+}
+
+img#me2 {
+    width: 34%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 34%;
+}
+
+img#fam {
+    width: 34%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 34%;
+}
+
+img#oreo {
+    width: 34%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 34%;
+}
+
+img#five {
+    width: 34%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 34%;
+}
+
+img#six {
+    width: 34%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 34%;
+}
+
+img#seven {
+    width: 55.6%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 22.3%;
+}
+
+img#eight {
+    width: 55.6%;
+    height: auto;
+    margin-top: 5.6%;
+    margin-bottom: 5.6%;
+    margin-left: 22.3%;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu > ul > li {
+    float:left;
+    width: 20%
+}
+
+nav ul > li > a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #1a472a;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul > li > ul {
+    width: 20%;
+}
+
+nav ul ul li {
+    float: none;
+    list-style: none;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+}
+
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+nav a.current {
+    color: #69f1eb;
+    text-decoration: underline;
+}
+
+nav a.current2 {
+    color: #f95995;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: cursive, sans-serif;
+    color: gainsboro;
+    padding-left: 1em;
+    padding-top: .5em;
+}
+
+p {
+    font-family: cursive, sans-serif;
+    padding-left: 3em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+
+p#list {
+    color:black;
+}
+
+p > strong {
+    color: #aaaaaa;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+p#list {
+    line-height: 2em;
+}
+
+p#list > a {
+    color: black;
+    text-decoration: none;
+}
+
+p#list > a:hover {
+    color: white;
+}
+
+ul {
+    font-family: cursive, sans-serif;
+    padding-left: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+    list-style-type: circle;
+}
+
+ol {
+    font-family: cursive, sans-serif;
+    padding-left: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+    list-style-type: lower-roman;
+}
+
+dl {
+    font-family: cursive, sans-serif;
+    padding-left: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+
+dt{
+    font-weight: bold;
+    padding-bottom: .5em;
+    
+}
+
+dd{
+    padding-left: 2em;
+    padding-right: 4em;
+    padding-bottom: .5em;
+}
+
+h1 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    padding-left: 1em;
+}
+
+p.image_caption {
+    text-align: center;
+    padding-right: 3em;
+}
+
+p.example a {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+p.example a:hover {
+    color: white;
+    font-style: italic;
+}
+
+p.example {
+    font-size: 1.5em;
+}
+
+table {
+    margin: 5%;
+    border: 2px solid white;
+    font-size: 200%; 
+}
+
+th, td {
+    padding: .5em;
+    border: 2px solid white;
+}
+
+th {
+    font-weight: bold;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+td {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+table caption {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 1.5em;
+}
+
+form {
+    padding: .5em;
+}
+
+legend {
+    font-size: 2em;
+}
+
+#login {
+    padding: 1.5em;
+}
+
+#login label {
+    padding-left: 2em;
+    font-size: 2em;
+}
+
+#login input {
+    font-size: 1.06em;
+}
+
+#origin {
+    padding: 1.5em;
+}
+
+#origin label {
+    padding-left: 2em;
+    font-size: 2em;
+}
+
+#origin input {
+    font-size: 1.15em;
+}
+
+#interests {
+    padding: 1.5em;
+}
+
+#interests label {
+    line-height: 2em;
+    font-size: 2em;
+    padding-right: 1em;
+}
+
+#class {
+    padding: 1.5em;
+}
+
+#class label {
+    line-height: 2em;
+    font-size: 2em;
+    padding-right: 1em;
+}
+
+select {
+    width: 5em;
+    height: 2em;
+}
+
+#competitiveSleeping {
+    width: 35em;
+    height: 2em;
+    margin-left: 15em;
+}
+
+#submit {
+    font-size: 2em;
+    padding: .25em;
+    margin: .25em;
+}
+
+#high {
+    font-size: 1.5em;
+}
+
+footer {
+    font-family: cursive, sans-serif;
+    clear: both;
+    text-align: center;
+    border-top: 5px solid #aaaaaa;
+    background-color: #1a472a;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-shadow: -1px -1px 0 #aaaaaa, 1px -1px 0 #aaaaaa, -1px 1px 0 #aaaaaa, 1px 1px 0 #aaaaaa;
+}
+
+footer p {
+    color: #1a472a;
+    font-size: 1.15em;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+        <h1>Kristi Boardman<br>
+            Siena College Student<br>
+            Psychology and Computer Science Double Major</h1>
+        </header>
+    
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../courses.html">Courses</a></li>
+                <li><a class="current" href="index.html">Examples</a>
+                    <ul>
+                        <li><a class="current2" href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="../gallery/index.html">Gallery</a>
+                    <ul>
+                        <li><a href="../gallery/photo1.html">Photo One</a></li>
+                        <li><a href="../gallery/photo2.html">Photo Two</a></li>
+                        <li><a href="../gallery/photo3.html">Photo Three</a></li>
+                        <li><a href="../gallery/photo4.html">Photo Four</a></li>
+                        <li><a href="../gallery/photo5.html">Photo Five</a></li>
+                        <li><a href="../gallery/photo6.html">Photo Six</a></li>
+                        <li><a href="../gallery/photo7.html">Photo Seven</a></li>
+                        <li><a href="../gallery/photo8.html">Photo Eight</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+	<main>
+        <form>
+            <fieldset id="login">
+                <legend>Login</legend>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+            </fieldset>
+            <fieldset id="origin">
+                <legend>Origin</legend>
+                <label for="birthday">Birthday:</label>
+                <input type="date" name="birthday" id="birthday">
+                <label for="country">Country:</label>
+                <input type="text" name="country" id="country">
+            </fieldset>
+            <fieldset id="interests">
+                <legend>Interests <em>(Choose as many as you want)</em></legend>
+                <input type="checkbox" name="interest1" id="interest1" value="skiing">
+                <label for="interest1">Skiing</label><br>
+                <input type="checkbox" name="interest2" id="interest2" value="biking">
+                <label for="interest2">Biking</label><br>
+                <input type="checkbox" name="interest3" id="interest3" value="running">
+                <label for="interest3">Running</label><br>
+                <input type="checkbox" name="interest4" id="interest4" value="sleeping">
+                <label for="interest4">Sleeping</label><br>
+                <input type="checkbox" name="interest5" id="interest5" value="reading">
+                <label for="interest5">Reading</label><br>
+                <label for="competitiveSleeping">Interest level in competitive sleeping:</label>
+                <input type="range" id="competitiveSleeping" min="1" max="10">
+                <p id="high">Low----------------------------------------------------------------High</p>
+            </fieldset>
+            <fieldset id="class">
+                <legend>Class</legend>
+                <input type="radio" name="class" id="freshman" value="freshman">
+                <label for="freshman">Freshman</label><br>
+                <input type="radio" name="class" id="sophomore" value="sophomore">
+                <label for="sophomore">Sophomore</label><br>
+                <input type="radio" name="class" id="junior" value="junior">
+                <label for="junior">Junior</label><br>
+                <input type="radio" name="class" id="senior" value="senior">
+                <label for="senior">Senior</label><br>
+                <label for="year">Graduation Year: </label>
+                <select id="year">
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                </select>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </main>						
+	
+	<footer>
+		<p>Contact me, Kristi Boardman, at kl03boar&#64;siena.edu or at 315-225-4640. Have a great day!! ;)</p>
+	</footer>
+</body>
+</html>
